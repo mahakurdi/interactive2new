@@ -7,6 +7,7 @@ body {
 	font-family: 'Inconsolata', monospace;
 	font-size: 20px;
 	font-weight: normal;
+	background-color: black;
 }
 
 /* this is a comment */
@@ -40,7 +41,7 @@ ul {
 }
 
 a {
-	color:black;
+	color:white;
 }
 
 a:hover {
