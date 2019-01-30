@@ -28,7 +28,7 @@ body {
 	top: 203px;
 	left: 270px;
 	position: absolute;
-	transform: rotate(50deg);
+	transform: rotate(20deg);
 
 	/* uncomment to add keyframe animation */
 	/* animation: spin 2s infinite; */
