@@ -84,7 +84,6 @@ z-index: 10}
 	left: 428px;
 	position: absolute;
 	border: 2px solid black;
-	border-radius: 25px;
 }
 
 #circle2 {
@@ -95,6 +94,7 @@ z-index: 10}
 	top: 279px;
 	left: 550px;
 	position: absolute;
+	border: 2px solid black;
 }
 
 #circle3 {
@@ -106,6 +106,7 @@ z-index: 10}
 	left: 311px;
 	right: 141px;
 	position: absolute;
+	border: 2px solid black;
 }
 
 
