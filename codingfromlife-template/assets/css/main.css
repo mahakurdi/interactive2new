@@ -45,12 +45,12 @@ body {
 }
 
 #circle {
-	width: 150px;
-	height: 150px;
+	width: 90px;
+	height: 90px;
 	background: darkgray;
 	border-radius: 150px;
-	top: 203px;
-	left: 480px;
+	top: 235px;
+	left: 360px;
 	position: absolute;
 }
 
