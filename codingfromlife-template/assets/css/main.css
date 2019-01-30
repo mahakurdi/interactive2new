@@ -56,6 +56,15 @@ z-index: 10}
 
 }
 
+#square4 {
+	width: 200px;
+	height: 59px;
+	background: black;
+	top: 146px;
+	left: 292px;
+	position: absolute;
+	transform: rotate(10deg);}
+
 #circle {
 	width: 90px;
 	height: 90px;
@@ -64,7 +73,6 @@ z-index: 10}
 	top: 250px;
 	left: 428px;
 	position: absolute;
-	outline-color: black;
 }
 
 #circle2 {
