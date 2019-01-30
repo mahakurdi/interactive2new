@@ -28,7 +28,8 @@ h1{
 	left: 620px;
 	position: absolute;
 	transform: rotate(100deg);
-z-index: 10}
+z-index: 10;
+border: 2px solid black;}
 
 
 #square {
@@ -76,14 +77,14 @@ z-index: 10}
 	transform: rotate(-80deg);}
 
 #circle {
-	width: 90px;
+	width: 95px;
 	height: 90px;
-	background: darkgray;
+	background: white;
 	border-radius: 150px;
 	top: 250px;
 	left: 428px;
 	position: absolute;
-	border: 2px solid black;
+	border: 6px solid black;
 }
 
 #circle2 {
