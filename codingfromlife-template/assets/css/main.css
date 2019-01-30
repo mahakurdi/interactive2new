@@ -10,16 +10,7 @@ body {
 	position: relative;
 }
 
-#triangle {
-	width: 0;
-	height: 0;
-	border-left: 75px solid transparent;
-	border-right: 75px solid transparent;
-	border-bottom: 150px solid yellow;
-	position: absolute;
-	top: 203px;
-	left: 60px;
-}
+
 
 #square {
 	width: 400px;
@@ -75,18 +66,7 @@ body {
 	position: absolute;
 }
 
-#clip {
-	width: 150px;
-	height: 150px;
-	background: green;
-	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-	top: 203px;
-	left: 690px;
-	position: absolute;
 
-	/* uncomment for css transitions */
-	/* transition: all 400ms ease; */
-}
 
 /* animations */
 
