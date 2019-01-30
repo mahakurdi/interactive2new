@@ -10,6 +10,11 @@ body {
 	position: relative;
 }
 
+h1{
+	font: helvetica;
+	font-size: 20px;
+	color: white;
+}
 #square3 {
 	width: 56px;
 	height: 81px;
