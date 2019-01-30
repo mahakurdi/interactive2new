@@ -45,6 +45,15 @@ body {
 	position: absolute;
 }
 
+#circle2 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	border-radius: 150px;
+	top: 203px;
+	left: 480px;
+	position: relative;
+}
 #clip {
 	width: 150px;
 	height: 150px;
