@@ -62,7 +62,7 @@ body {
 	border-radius: 150px;
 	top: 400px;
 	left: 480px;
-	position: absolute;
+	position: relative;
 }
 
 #clip {
