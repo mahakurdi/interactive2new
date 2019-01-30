@@ -24,18 +24,18 @@ body {
 #square {
 	width: 400px;
 	height: 200px;
-	background: darkgray;
+	background: gray;
 	top: 203px;
 	left: 270px;
 	position: absolute;
 	transform: rotate(10deg);}
 
 #square2 {
-	width: 200px;
-	height: 200px;
+	width: 400px;
+	height: 59px;
 	background: black;
-	top: 203px;
-	left: 270px;
+	top: 146px;
+	left: 292px;
 	position: absolute;
 	transform: rotate(10deg);
 
@@ -47,7 +47,7 @@ body {
 #circle {
 	width: 150px;
 	height: 150px;
-	background: blue;
+	background: darkgray;
 	border-radius: 150px;
 	top: 203px;
 	left: 480px;
@@ -57,7 +57,7 @@ body {
 #circle2 {
 	width: 80px;
 	height: 80px;
-	background: yellow;
+	background: darkgray;
 	border-radius: 150px;
 	top: 267px;
 	left: 518px;
@@ -67,7 +67,7 @@ body {
 #circle3 {
 	width: 80px;
 	height: 80px;
-	background: gray;
+	background: darkgray;
 	border-radius: 150px;
 	top: 237px;
 	left: 311px;
