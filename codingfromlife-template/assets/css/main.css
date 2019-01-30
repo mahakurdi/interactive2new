@@ -38,7 +38,9 @@ z-index: 10}
 	top: 203px;
 	left: 270px;
 	position: absolute;
-	transform: rotate(10deg);}
+	transform: rotate(10deg);
+	border: 2px solid black;
+	border-radius: 25px;}
 
 
 
