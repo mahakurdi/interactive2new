@@ -28,7 +28,7 @@ body {
 	top: 203px;
 	left: 270px;
 	position: absolute;
-	transform: rotate(20deg);
+	transform: rotate(10deg);
 
 	/* uncomment to add keyframe animation */
 	/* animation: spin 2s infinite; */
@@ -49,6 +49,16 @@ body {
 	width: 100px;
 	height: 100px;
 	background: yellow;
+	border-radius: 150px;
+	top: 203px;
+	left: 480px;
+	position: absolute;
+}
+
+#circle3 {
+	width: 80px;
+	height: 80px;
+	background: gray;
 	border-radius: 150px;
 	top: 203px;
 	left: 480px;
