@@ -15,19 +15,19 @@ h1{
 	font-size: 20px;
 	color: white;
 	position: absolute;
-    top: 216px;
-    left: 324px;
+    top: 232px;
+    left: 360px;
 	z-index:10;
-	transform:rotate(20deg);
+	transform:rotate(10deg);
 }
 #square3 {
-	width: 56px;
-	height: 81px;
+	width: 45px;
+	height: 69px;
 	background: lightgray;
-	top: 120px;
-	left: 701px;
+	top: 166px;
+	left: 620px;
 	position: absolute;
-	transform: rotate(101deg);
+	transform: rotate(100deg);
 z-index: 10}
 
 
