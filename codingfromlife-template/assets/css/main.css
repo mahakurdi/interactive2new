@@ -24,6 +24,15 @@ body {
 #square {
 	width: 400px;
 	height: 200px;
+	background: darkgray;
+	top: 203px;
+	left: 270px;
+	position: absolute;
+	transform: rotate(10deg);}
+
+#square2 {
+	width: 200px;
+	height: 200px;
 	background: black;
 	top: 203px;
 	left: 270px;
@@ -50,8 +59,8 @@ body {
 	height: 80px;
 	background: yellow;
 	border-radius: 150px;
-	top: 203px;
-	left: 480px;
+	top: 267px;
+	left: 518px;
 	position: absolute;
 }
 
