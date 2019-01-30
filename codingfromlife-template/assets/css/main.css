@@ -46,8 +46,8 @@ body {
 }
 
 #circle2 {
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	background: yellow;
 	border-radius: 150px;
 	top: 203px;
@@ -60,9 +60,9 @@ body {
 	height: 80px;
 	background: gray;
 	border-radius: 150px;
-	top: 400px;
-	left: 480px;
-	right: 100px;
+	top: 237px;
+	left: 311px;
+	right: 141px;
 	position: absolute;
 }
 
