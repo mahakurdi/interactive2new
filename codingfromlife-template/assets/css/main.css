@@ -11,13 +11,13 @@ body {
 }
 
 #square3 {
-	width: 80px;
-	height: 80px;
-	background: yellow;
+	width: 56px;
+	height: 81px;
+	background: lightgray;
 	top: 120px;
-	left: 693px;
+	left: 701px;
 	position: absolute;
-	transform: rotate(10deg);}
+	transform: rotate(101deg);}
 
 
 #square {
