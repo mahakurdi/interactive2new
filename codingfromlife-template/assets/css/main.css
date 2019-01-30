@@ -10,6 +10,14 @@ body {
 	position: relative;
 }
 
+#square3 {
+	width: 80px;
+	height: 80px;
+	background: yellow;
+	top: 241px;
+	left: 603px;
+	position: absolute;
+	transform: rotate(10deg);}
 
 
 #square {
@@ -21,14 +29,7 @@ body {
 	position: absolute;
 	transform: rotate(10deg);}
 
-#square3 {
-	width: 80px;
-	height: 80px;
-	background: yellow;
-	top: 241px;
-	left: 603px;
-	position: absolute;
-	transform: rotate(10deg);}
+
 
 #square2 {
 	width: 400px;
