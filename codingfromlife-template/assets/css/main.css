@@ -64,6 +64,7 @@ z-index: 10}
 	top: 250px;
 	left: 428px;
 	position: absolute;
+	stroke: black;
 }
 
 #circle2 {
