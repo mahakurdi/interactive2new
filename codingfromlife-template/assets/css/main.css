@@ -21,7 +21,7 @@ body {
 	position: absolute;
 	transform: rotate(10deg);}
 
-	#square3 {
+#square3 {
 	width: 80px;
 	height: 80px;
 	background: white;
