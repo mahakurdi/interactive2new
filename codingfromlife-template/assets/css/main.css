@@ -110,6 +110,17 @@ border: 2px solid black;}
 	border: 2px solid black;
 }
 
+#square6 {
+	width: 400px;
+	height: 59px;
+	background: black;
+	top: 146px;
+	left: 292px;
+	position: absolute;
+	transform: rotate(10deg);
+}
+
+
 
 
 /* animations */
