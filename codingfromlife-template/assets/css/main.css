@@ -68,23 +68,23 @@ border: 2px solid black;}
 	transform: rotate(-80deg);}
 
 #square5 {
-	width: 280px;
-	height: 13px;
+	width: 278px;
+	height: 14px;
 	background: black;
-	top: 293px;
-	left: 538px;
+	top: 311px;
+	left: 531px;
 	position: absolute;
 	transform: rotate(-80deg);}
 
 #circle {
 	width: 95px;
 	height: 90px;
-	background: white;
+	background: black;
 	border-radius: 150px;
 	top: 250px;
 	left: 428px;
 	position: absolute;
-	border: 6px solid black;
+	border: 6px solid darkgray;
 }
 
 #circle2 {
