@@ -118,6 +118,7 @@ border: 2px solid black;}
     width: 850px;
     position: absolute;
     bottom: 75px;
+    z-index: 10;
 }
 
 
