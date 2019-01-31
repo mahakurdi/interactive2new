@@ -110,6 +110,16 @@ border: 2px solid black;}
 	border: 2px solid black;
 }
 
+#table {
+	border-bottom: 200px solid #F6EDC0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 850px;
+    position: absolute;
+    bottom: 75px;
+}
+
 
 
 /* animations */
