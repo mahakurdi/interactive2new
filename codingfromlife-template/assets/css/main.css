@@ -76,7 +76,10 @@ border: 2px solid black;}
 	top: 223px;
 	left: 147px;
 	position: absolute;
-	transform: rotate(-80deg);}
+	transform: rotate(-80deg);
+	transform: skew(0deg 10deg);
+}
+
 
 #square5 {
 	width: 280px;
