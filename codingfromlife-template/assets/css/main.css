@@ -68,13 +68,13 @@ border: 2px solid black;}
 	transform: rotate(-80deg);}
 
 #square5 {
-	width: 278px;
+	width: 259px;
 	height: 14px;
 	background: black;
-	top: 311px;
-	left: 531px;
+	top: 302px;
+	left: 543px;
 	position: absolute;
-	transform: rotate(-80deg);}
+	transform: rotate(-81deg);}
 
 #circle {
 	width: 95px;
