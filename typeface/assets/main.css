@@ -1,0 +1,62 @@
+.letter {
+  position:relative;
+  float:left;
+  width:135px;
+  height:160px;
+  margin-right:10px;
+/*   margin-bottom:100px; */
+}
+
+.letter div {
+   position:absolute;
+}
+
+.a .v {
+   transform:rotate(180deg) translateY(10px);
+}
+
+.a .crossbar {
+  top:80px;
+  left:20px;
+}
+
+.letter.w {
+  width:255px; 
+}
+
+.w .vInW {
+  left:115px; 
+}
+
+.crossbar {
+  width:70px;
+  height:20px;
+  background:black;
+}
+
+.ascender {
+  width:20px;
+  height:150px;
+  background:black;
+}
+
+.leanLeft {
+  transform:skew(20deg);  
+}
+
+.leanRight {
+  transform:skew(-20deg);  
+}
+.vLeft {
+  left:35px; 
+}
+.vRight {
+  left:95px; 
+}
+
+
+
+#bottom {
+  position:absolute;
+  bottom:0;
+}
