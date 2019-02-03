@@ -11,52 +11,140 @@
    position:absolute;
 }
 
-.a .v {
-   transform:rotate(180deg) translateY(10px);
-}
-
-.a .crossbar {
-  top:80px;
-  left:20px;
-}
-
-.letter.w {
-  width:255px; 
-}
-
-.w .vInW {
-  left:115px; 
-}
-
-.crossbar {
-  width:70px;
-  height:20px;
-  background:black;
-}
-
 .ascender {
-  width:20px;
+  width:3px;
   height:150px;
   background:black;
 }
 
-.leanLeft {
-  transform:skew(20deg);  
+.aLeft {
+  left:24px; 
 }
 
-.leanRight {
-  transform:skew(-20deg);  
+.aRight {
+  left:-34px; 
+  width: 37px;
 }
-.vLeft {
-  left:35px; 
+.atopcrossbar {
+  width:87px;
+  height:3px;
+  background:black;
+  left: -120px;
 }
-.vRight {
-  left:95px; 
+.abottomcrossbar {
+  width:107px;
+  height:3px;
+  background:black;
+  right: -120px;
+  left: -1px;
+  top:76px;
 }
 
+.bascender {
+  width:3px;
+  height:150px;
+  background:black;
+}
 
+.bLeft {
+  left:124px; 
+}
 
-#bottom {
-  position:absolute;
-  bottom:0;
+.bRight {
+  left:11px; 
+  width: 37px;
+}
+.btopcrossbar {
+  width:99px;
+  height:3px;
+  background:black;
+  left: 25px;
+}
+.bbottomcrossbar {
+  width:107px;
+  height:3px;
+  background:black;
+  left: -5px;
+  top:76px;
+}
+
+.bbottomcrossbar2 {
+  width:107px;
+  height:3px;
+  background:black;
+  left: -8px;
+  top:147px;
+}
+
+.cRight {
+  left:135px; 
+  width: 37px;
+}
+
+.ctopcrossbar {
+  width:99px;
+  height:3px;
+  background:black;
+  left: 171px;
+}
+
+.cbottomcrossbar {
+  width:107px;
+  height:3px;
+  background:black;
+  left: -5px;
+  top:147px;
+}
+
+.dascender {
+  width:3px;
+  height:150px;
+  background:black;
+}
+
+.dLeft {
+  left:124px; 
+}
+
+.dRight {
+  left:282px; 
+  width: 37px;
+}
+.dtopcrossbar {
+  width:99px;
+  height:3px;
+  background:black;
+  left: 318px;
+}
+.dbottomcrossbar {
+  width:107px;
+  height:3px;
+  background:black;
+  left: -5px;
+  top:147px;
+}
+.eRight {
+  left:430px; 
+  width: 37px;
+}
+.etopcrossbar {
+  width:99px;
+  height:3px;
+  background:black;
+  left: 465px;
+}
+.ebottomcrossbar {
+  width:83px;
+  height:3px;
+  background:black;
+  left: -33px;
+  top:76px;
+}
+
+.ebottomcrossbar2 {
+  width:113px;
+  height:3px;
+  background:black;
+  left: -5px;
+  top:147px;
 }
