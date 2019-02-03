@@ -1,3 +1,9 @@
+
+body{
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 .letter {
   position:relative;
   float:left;
@@ -14,7 +20,7 @@
 .ascender {
   width:3px;
   height:150px;
-  background:black;
+  background:white;
 }
 
 .aLeft {
@@ -28,13 +34,13 @@
 .atopcrossbar {
   width:87px;
   height:3px;
-  background:black;
+  background:white;
   left: -120px;
 }
 .abottomcrossbar {
   width:107px;
   height:3px;
-  background:black;
+  background:white;
   right: -120px;
   left: -1px;
   top:76px;
@@ -43,7 +49,7 @@
 .bascender {
   width:3px;
   height:150px;
-  background:black;
+  background:white;
 }
 
 .bLeft {
@@ -57,13 +63,13 @@
 .btopcrossbar {
   width:99px;
   height:3px;
-  background:black;
+  background:white;
   left: 25px;
 }
 .bbottomcrossbar {
   width:107px;
   height:3px;
-  background:black;
+  background:white;
   left: -5px;
   top:76px;
 }
@@ -71,7 +77,7 @@
 .bbottomcrossbar2 {
   width:107px;
   height:3px;
-  background:black;
+  background:white;
   left: -8px;
   top:147px;
 }
@@ -84,14 +90,14 @@
 .ctopcrossbar {
   width:99px;
   height:3px;
-  background:black;
+  background:white;
   left: 171px;
 }
 
 .cbottomcrossbar {
   width:107px;
   height:3px;
-  background:black;
+  background:white;
   left: -5px;
   top:147px;
 }
@@ -99,7 +105,7 @@
 .dascender {
   width:3px;
   height:150px;
-  background:black;
+  background:white;
 }
 
 .dLeft {
@@ -113,13 +119,13 @@
 .dtopcrossbar {
   width:99px;
   height:3px;
-  background:black;
+  background:white;
   left: 318px;
 }
 .dbottomcrossbar {
   width:107px;
   height:3px;
-  background:black;
+  background:white;
   left: -5px;
   top:147px;
 }
@@ -128,15 +134,15 @@
   width: 37px;
 }
 .etopcrossbar {
-  width:99px;
+  width:107px;
   height:3px;
-  background:black;
+  background:white;
   left: 465px;
 }
 .ebottomcrossbar {
   width:83px;
   height:3px;
-  background:black;
+  background:white;
   left: -33px;
   top:76px;
 }
@@ -144,7 +150,63 @@
 .ebottomcrossbar2 {
   width:113px;
   height:3px;
-  background:black;
+  background:white;
   left: -5px;
+  top:147px;
+}
+
+.fRight {
+  left:583px; 
+  width: 37px;
+}
+.ftopcrossbar {
+  width:99px;
+  height:3px;
+  background:white;
+  left: 618px;
+}
+.fbottomcrossbar {
+  width:83px;
+  height:3px;
+  background:white;
+  left: -33px;
+  top:76px;
+}
+
+.gascender {
+  width:3px;
+  height:150px;
+  background:white;
+}
+
+.gLeft {
+  top:78px;
+  left: 251px;
+  height: 72px 
+}
+
+.gRight {
+  left:109px; 
+  width: 37px;
+}
+.gtopcrossbar {
+  width:101px;
+  height:3px;
+  background:white;
+  left: 145px;
+}
+.gbottomcrossbar {
+  left: 54px;
+  width: 55px;
+  height: 3px;
+  background: white;
+  top:76px;
+}
+
+.gbottomcrossbar2 {
+  width:107px;
+  height:3px;
+  background:white;
+  left: 0px;
   top:147px;
 }
