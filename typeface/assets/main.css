@@ -5,7 +5,7 @@
   width:135px;
   height:160px;
   margin-right:10px;
-/*   margin-bottom:100px; */
+  margin-bottom:10px;
 }
 
 .letter div {
@@ -52,11 +52,11 @@
 }
 
 .bLeft {
-  left:124px; 
+  /*left:124px; */
 }
 
 .bRight {
-  left:11px; 
+  /*left:0px; */
   width: 37px;
   background-color: white;
 }
@@ -64,26 +64,26 @@
   width:79px;
   height:3px;
   background:white;
-  left: 48px;
+  /*left: 37px;*/
 }
 .bbottomcrossbar {
   width:78px;
   height:3px;
   background:white;
-  left: 0px;
-  top:76px;
+  /*left: 0px;*/
+  /*top:76px;*/
 }
 
 .bbottomcrossbar2 {
   width:78px;
   height:3px;
   background:white;
-  left: 0px;
-  top:147px;
+  /*left: 0px;*/
+  /*top:147px;*/
 }
 
 .cRight {
-  left:25px; 
+  /*left:0px; */
   width: 37px;
 }
 
@@ -91,15 +91,15 @@
   width:99px;
   height:3px;
   background:white;
-  left: 60px;
+  /*left: 35px;*/
 }
 
 .cbottomcrossbar {
   width:107px;
   height:3px;
   background:white;
-  left: -5px;
-  top:147px;
+  /*left: -5px;*/
+  /*top:147px;*/
 }
 
 .dascender {
@@ -109,68 +109,68 @@
 }
 
 .dLeft {
-  left:187px; 
+  /*left:187px; */
 }
 
 .dRight {
-  left:56px; 
+  /*left:56px;*/ 
   width: 37px;
 }
 .dtopcrossbar {
   width:99px;
   height:3px;
   background:white;
-  left: 88px;
+  /*left: 88px;*/
 }
 .dbottomcrossbar {
   width:107px;
   height:3px;
   background:white;
-  left: -5px;
-  top:147px;
+  /*left: -5px;*/
+  /*top:147px;*/
 }
 .eRight {
-  left:90px; 
+  /*left:90px; */
   width: 37px;
 }
 .etopcrossbar {
   width:107px;
   height:3px;
   background:white;
-  left: 125px;
+  /*left: 125px;*/
 }
 .ebottomcrossbar {
   width:83px;
   height:3px;
   background:white;
-  left: -33px;
-  top:76px;
+  /*left: -33px;*/
+  /*top:76px;*/
 }
 
 .ebottomcrossbar2 {
   width:113px;
   height:3px;
   background:white;
-  left: 33px;
-  top:71px;
+  /*left: 33px;*/
+  /*top:71px;*/
 }
 
 .fRight {
-  left:123px; 
+  /*left:123px;*/ 
   width: 37px;
 }
 .ftopcrossbar {
   width:99px;
   height:3px;
   background:white;
-  left: 158px;
+  /*left: 158px;*/
 }
 .fbottomcrossbar {
   width:83px;
   height:3px;
   background:white;
-  left: -33px;
-  top:76px;
+  /*left: -33px;*/
+  /*top:76px;*/
 }
 
 .gascender {
@@ -180,35 +180,35 @@
 }
 
 .gLeft {
-  top:78px;
-  left: 251px;
+  /*top:78px;*/
+  /*left: 251px;*/
   height: 72px 
 }
 
 .gRight {
-  left: 130px; 
+  /*left: 130px;*/ 
   width: 37px;
 }
 .gtopcrossbar {
   width:101px;
   height:3px;
   background:white;
-  left: 145px;
+  /*left: 145px;*/
 }
 .gbottomcrossbar {
-  left: 55px;
+  /*left: 55px;*/
   width: 55px;
   height: 3px;
   background: white;
-  top:77px;
+  /*top:77px;*/
 }
 
 .gbottomcrossbar2 {
   width:107px;
   height:3px;
   background:white;
-  left: -56px;
-  top:70px;
+  /*left: -56px;*/
+  /*top:70px;*/
 }
 
 .hascender {
@@ -218,56 +218,56 @@
 }
 
 .hLeft {
-  left:260px; 
+  /*left:260px; */
 }
 
 .hRight {
-  left:138px; 
+  /*left:138px; */
   width: 37px;
 }
 .htopcrossbar {
   width:99px;
   height:2px;
   background:white;
-  left: 160px;
-  top:78px;
+  /*left: 160px;*/
+  /*top:78px;*/
 }
 
 .iRight {
-  left:160px; 
+  /*left:160px; */
   width: 37px;
 }
 
 .jLeft {
-  left:110px;
+  /*left:110px;*/
   height: 23px;
-  bottom: 10px; 
+  /*bottom: 10px; */
 }
 
 .jRight {
-  left:140px; 
+  /*left:140px; */
   width: 37px;
 }
 .jtopcrossbar {
   width:65px;
   height:3px;
   background:white;
-  left: 110px;
-  top:147px;
+  /*left: 110px;*/
+  /*top:147px;*/
 }
 
 .kRight {
-  left:-1450px; 
+  /*left:-1450px; */
   width: 37px;
-  top:220px;
+  /*top:220px;*/
 }
 
 .ktopcrossbar {
   width:97px;
   height:2px;
   background:white;
-  left: -1450px;
-  top:289px;
+  /*left: -1450px;*/
+  /*top:289px;*/
   transform: skew(26deg, -54deg);
 }
 
@@ -275,35 +275,35 @@
   width:44px;
   height:4px;
   background:white;
-  left: 24px;
-  top:28px;
+  /*left: 24px;*/
+  /*top:28px;*/
   transform: skew(0deg, -106deg);
 }
 
 .lRight {
-  left:-1440px; 
+  /*left:-1440px; */
   width: 37px;
-  top:218px;
+  /*top:218px;*/
 }
 
 .lbottomcrossbar {
   width:107px;
   height:3px;
   background:white;
-  left: -1420px;
-  top:365px;
+  /*left: -1420px;*/
+  /*top:365px;*/
 }
 
 .mLeft {
-  /*left:141px; */
-  left:455px; 
-  top: 60px;
+  left:141px;
+  /*left:455px;*/ 
+  /*top: 60px;*/
 }
 
 .mRight {
-  left: 310px;
+  /*left: 310px;*/
   width: 38px;
-  top: 60px;
+  /*top: 60px;*/
   background-color: white;
 
 }
@@ -312,14 +312,14 @@
   height:3px;
   background:white;
   /*left: -82px;*/
-  left:320px;
-  top: 60px; 
+  /*left:320px;*/
+  /*top: 60px;*/
 }
 
 .mLeft2 {
   /*left:141px; */
-  left:400px;
-  top: 60px; 
+  /*left:400px;*/
+  /*top: 60px; */
 }
 
 .mtopcrossbar2 {
@@ -327,14 +327,14 @@
   height:3px;
   background:white;
   /*left: -82px;*/
-  left:70px;
-  top: 0px; 
+  /*left:70px;*/
+  /*top: 0px; */
 }
 
 .nRight {
-  left:350px; 
+  /*left:350px; */
   width: 37px;
-  top:60px;
+  /*top:60px;*/
 }
 
 
@@ -342,15 +342,15 @@
   width:90px;
   height:4px;
   background:white;
-  left: 380px;
-  top:150px;
+  /*left: 380px;*/
+  /*top:150px;*/
   transform: skew(0deg, -130deg);
 }
 
 .nLeft {
   /*left:141px; */
-  left:100px; 
-  top:-160px;
+  /*left:100px; */
+  /*top:-160px;*/
 }
 
 .oascender {
@@ -360,55 +360,55 @@
 }
 
 .oLeft {
-  left:380px; 
-  top: 60px;
+  /*left:380px; */
+  /*top: 60px;*/
 }
 
 .oRight {
-  left:490px; 
+  /*left:490px; */
   width: 37px;
-  top: 60px;
+  /*top: 60px;*/
 }
 .otopcrossbar {
   width:110px;
   height:3px;
   background:white;
-  left: 380px;
-  top: 60px;
+  /*left: 380px;*/
+  /*top: 60px;*/
 }
 .obottomcrossbar {
   width:107px;
   height:3px;
   background:white;
-  left: 3px;
-  top:147px;
+  /*left: 3px;*/
+  /*top:147px;*/
 }
 
 .pLeft {
-  left:530px;
-  top: 60px; 
+  /*left:530px;*/
+  /*top: 60px; */
   height: 80px;
 }
 
 .pRight {
-  left:415px; 
+  /*left:415px;*/ 
   width: 37px;
   background-color: white;
-  top:60px;
+  /*top:60px;*/
 }
 .ptopcrossbar {
   width:79px;
   height:3px;
   background:white;
-  left: 450px;
-  top: 60px;
+  /*left: 450px;*/
+  /*top: 60px;*/
 }
 .pbottomcrossbar {
   width:78px;
   height:3px;
   background:white;
-  left: 2px;
-  top:76px;
+  /*left: 2px;*/
+  /*top:76px;*/
 }
 
 .qascender {
@@ -418,107 +418,107 @@
 }
 
 .qLeft {
-  left:540px; 
-  top: 60px;
+  /*left:540px; */
+  /*top: 60px;*/
 }
 
 .qRight {
-  left:505px; 
+  /*left:505px; */
   width: 37px;
-  top: 170px;
+  /*top: 170px;*/
   height: 40px;
 }
 .qtopcrossbar {
   width:119px;
   height:3px;
   background:white;
-  left: 422px;
-  top: 60px;
+  /*left: 422px;*/
+  /*top: 60px;*/
 }
 .qbottomcrossbar {
   width:122px;
   height:3px;
   background:white;
-  left: -1px;
-  top:150px;
+  /*left: -1px;*/
+  /*top:150px;*/
 }
 
 .qLeft2 {
   /*left:141px; */
-  left:-2px;
-  top: -1px;
+  /*left:-2px;*/
+  /*top: -1px;*/
   height: 154px; 
 }
 
 .rLeft {
-  left:550px;
-  top: 60px; 
+  /*left:550px;*/
+  /*top: 60px;*/ 
   height: 80px;
 }
 
 .rRight {
-  left:430px; 
+  /*left:430px; */
   width: 37px;
   background-color: white;
-  top:60px;
+  /*top:60px;*/
 }
 .rtopcrossbar {
   width:92px;
   height:3px;
   background:white;
-  left: 460px;
-  top: 60px;
+  /*left: 460px;*/
+  /*top: 60px;*/
 }
 .rbottomcrossbar {
   width:90px;
   height:3px;
   background:white;
-  left: 2px;
-  top:76px;
+  /*left: 2px;*/
+  /*top:76px;*/
 }
 
 .rbottomcrossbar2 {
   width:60px;
   height:4px;
   background:white;
-  left: -1px;
-  top:30px;
+  /*left: -1px;*/
+  /*top:30px;*/
   transform: skew(0deg, -130deg);
 }
 
 .sLeft {
-  left:550px;
-  top: 60px; 
+  /*left:550px;*/
+  /*top: 60px; */
   height: 30px;
 }
 
 .sRight {
-  left:430px; 
+  /*left:430px;*/ 
   width: 37px;
   background-color: white;
-  top:60px;
+  /*top:60px;*/
   height: 80px;
 }
 .stopcrossbar {
   width:92px;
   height:3px;
   background:white;
-  left: 460px;
-  top: 60px;
+  /*left: 460px;*/
+  /*top: 60px;*/
 }
 .sbottomcrossbar {
   width:90px;
   height:3px;
   background:white;
-  left: 2px;
-  top:76px;
+  /*left: 2px;*/
+  /*top:76px;*/
 }
 
 .sRight2 {
-  left:90px; 
+  /*left:90px; */
   width: 3px;
   background-color: white;
-  top:76px;
+  /*top:76px;*/
   height: 80px;
 }
 
@@ -526,22 +526,22 @@
   width:87px;
   height:3px;
   background:white;
-  left:6px;
-  top:155px;
+  /*left:6px;*/
+  /*top:155px;*/
 }
 
 .sRight3 {
-  left:-30px; 
+  /*left:-30px; */
   width: 40px;
   background-color: white;
-  top:118px;
+  /*top:118px;*/
   height: 40px;
 }
 
 .tRight {
-  left:500px; 
+  /*left:500px;*/ 
   width: 37px;
-  top:60px;
+  /*top:60px;*/
   height: 160px;
 }
 
@@ -549,6 +549,6 @@
   width:140px;
   height:3px;
   background:white;
-  left: 450px;
-  top:60px;
+  /*left: 450px;*/
+  /*top:60px;*/
 }

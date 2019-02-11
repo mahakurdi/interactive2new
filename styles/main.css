@@ -7,7 +7,7 @@ body {
 	font-family: 'Inconsolata', monospace;
 	font-size: 20px;
 	font-weight: normal;
-	background-color: lightpink;
+	background-color: white;
 
 }
 
@@ -29,7 +29,7 @@ h1 {
 h1, h2, h3 {
 	margin: 20px 0;
     font-size:20pt;
-    color: yellow;
+    color: red;
 } 
 
 p {
@@ -44,7 +44,7 @@ ul {
 }
 
 a {
-	color:white;
+	color:black;
 }
 
 a:hover {
