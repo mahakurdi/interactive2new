@@ -704,6 +704,10 @@ body{
   top:113px;
 }
 
+.u.letter:hover .ubottomcrossbar {
+     top:5px;
+}
+
 .uRight2 {
   /*left:0px; */
   width: 3px;
@@ -761,6 +765,7 @@ body{
   left: 46px;
 }
 
+
 .wtopcrossbar2 {
   width:66px;
   height:3px;
@@ -813,6 +818,10 @@ body{
   /*left: 37px;*/
   left: 0px;
   top: 220px;
+}
+
+.y.letter:hover .ybottomcrossbar2 {
+     top:12px;
 }
 
 .ybottomcrossbar2 {
