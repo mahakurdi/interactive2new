@@ -1,0 +1,807 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: lightblue;
+}
+
+/* container */
+
+.container {
+	position: relative;
+	background-color: yellow;
+}
+
+/* items */
+
+.item {
+	height: 200px;
+	width: 200px;
+	margin: 55px;
+	text-align: center;
+    background: yellow;
+	float: left; 
+
+}
+
+#button-1{
+	border-color:yellow;
+}
+#button-2 {
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: pink;
+  background-color: yellow;
+  border: none;
+  border-radius: 0px;
+  box-shadow: 0 9px #999;
+}
+
+#button-2:hover {background-color: #3e8e41}
+
+#button-2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#button-3{
+	border-color: yellow;
+}
+#button-4{
+	border-color: yellow;
+}
+#button-5 {
+  position: relative;
+  background-color: yellow;
+  border: none;
+  font-size: 28px;
+  color: blue;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-5:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#button-5:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+	
+#button-6{
+	border-color: yellow;
+}
+#button-7{
+	border-color: yellow;
+}
+#button-8{
+	border-color: yellow;
+}
+#button-9{
+	border-color: yellow;
+}
+#button-10{
+	border-color: yellow;
+}
+#button-11{
+	border-color: yellow;
+}
+#button-12{
+	border-color: yellow;
+}
+#button-13{
+	border-color: yellow;
+}
+#button-14{
+	border-color: yellow;
+}
+#button-15{
+	border-color: yellow;
+}
+#button-16{
+	border-color: yellow;
+}
+#button-17{
+	border-color: yellow;
+}#button-18{
+	border-color: yellow;
+}#button-19{
+	border-color: yellow;
+}#button-20{
+	border-color: yellow;
+}
+#button-21{
+	border-color: yellow;
+}
+#button-22{
+	border-color: yellow;
+}
+#button-23{
+	border-color: yellow;
+}
+#button-24{
+	border-color: yellow;
+}
+#button-25{
+	border-color: yellow;
+}
+#button-26{
+	border-color: yellow;
+}
+#button-27{
+	border-color: yellow;
+}
+#button-28{
+	border-color: yellow;
+}
+#button-29{
+	border-color: yellow;
+}
+#button-30{
+	border-color: yellow;
+}
+#button-31{
+	border-color: yellow;
+}
+#button-32{
+	border-color: yellow;
+}
+#button-33{
+	border-color: yellow;
+}
+#button-34{
+	border-color: yellow;
+}
+#button-35{
+	border-color: yellow;
+}
+#button-36{
+	border-color: yellow;
+}
+#button-37{
+	border-color: yellow ;
+}#button-38{
+	border-color: yellow;
+}#button-39{
+	border-color: yellow;
+}#button-40{
+	border-color: yellow;
+}
+#button-41{
+	border-color: yellow;
+}
+#button-42{
+	border-color: yellow;
+}
+#button-43{
+	border-color: yellow;
+}
+#button-44{
+	border-color: yellow;
+}
+#button-45{
+	border-color: yellow;
+}
+#button-46{
+	border-color: yellow;
+}
+#button-47{
+	border-color: yellow;
+}
+#button-48{
+	border-color: yellow;
+}
+#button-49{
+	border-color: yellow;
+}
+#button-50{
+	border-color: yellow;
+}
+
+
+#button-1:hover {
+	transform: rotate(90deg) scale(1.5);
+	opacity: .3;
+}
+
+#button-1:active {
+	background: pink;
+	opacity: 1;
+}
+
+#button-2:: before {
+	color: red; 
+}
+#button-2:hover::before {
+	color: yellow;
+}
+
+#button-5::after {
+	color: white;
+	font-size: 12px;
+}
+
+
+#button-5:hover::after {
+	color: pink;
+}
+
+#button-4:hover {
+    background-color: #FFCCCC;
+    width: 200px;
+    height: 200px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#button-6:hover {
+	transform: rotate(50deg) scale(.2);
+	opacity: .3;
+	border-color: yellow;
+}
+
+#button-6:active {
+	background: pink;
+	opacity: 5;
+}
+
+#button-7:hover {
+	transform: : rotate(90deg);
+	border-radius: 40%;
+	transform: scale(0.6);
+	border-color: red; 
+}
+
+#button-8:hover {
+	transform: rotate(90deg) scale(1.5);
+	opacity: .2;
+}
+
+#button-8: active {
+	background: pink;
+	opacity: 5;
+}
+
+#button-9:hover {
+	transform: rotate(100deg) scale(.5);
+	opacity: .0;
+}
+
+#button-9:active {
+	background: pink;
+	opacity: .0;
+}
+
+#button-10:hover {
+    -webkit-transform: rotate(50deg);
+    transform: rotate(50deg);
+}
+
+#button-11:{
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#button-11:after {
+    align-content: center;
+    background: #90EE90;
+    display: block;
+    position: relative;
+    padding-top: 200%;
+    padding-left: 200%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+#button-11:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+#button-12:hover {
+	position: absolute;
+    width: 23%;
+    height: 100px;
+    top: 1000px;
+    left: 50.5%;
+    background-color: red;
+    opacity: .5;
+}
+
+#button-13:hover {
+    transform: skew(30deg,10deg);
+    cursor: pointer;
+}
+#button-13:hover {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 40px;
+    float: left;
+}
+
+#button-14:hover{
+	position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: seagreen;
+    margin: 40px;
+    float: left;
+}
+
+#button-15:hover {
+    background: url(file:///Users/mahakurdi/Desktop/interactive2new/50%20charrette/assets/w.jpg);
+    background-size: 200px 200px;
+}
+
+#button-17:hover {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 20px #999;
+}
+
+#button-17:hover {
+    background: rgba(0,0,0,0);
+    color: #3a7999;
+    box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+
+#button-17:active {
+  background-color: orange;
+  box-shadow: 0 4px #666;
+  transform: translateY(5px);
+}
+
+#button-18:hover {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#button18 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#button-18 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#button-18:hover span {
+  padding-right: 25px;
+}
+
+#button-18:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#button-19:hover {
+    position: relative;
+    background-color: dar yellow;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#button-19:after {
+    background: dar yellow;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+#button-19:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+#button-20:hover {
+  transform: rotate(700deg);
+    height: 500px;
+    width: 500px;
+    opacity: 0.8;
+}
+#button-20: {
+    position: absolute;
+    width: 23%;
+    height: 300px;
+    top: 8660px;
+    left: 26%;
+    background-color: red;
+    opacity: .1;
+}
+#button-21:hover{
+  transform: scale(0.6);
+  height: 50px;
+  width: 50px;
+}
+#button-22:hover{
+	transform: skew(-45deg);
+}
+#button-23:hover{
+	animation: bounce 0.5s;
+}
+#button-24:hover{
+	background: orange;
+	color: #3a7999;
+	box-shadow: inset 0 0 0 100px #FA8072;
+}
+#button-25:hover{
+	transform: skew(70deg,70deg);
+    cursor: pointer;
+}
+#button-26 {
+	opacity:0.5;
+	background-color: pink;
+}
+#button-26:hover{
+	opacity:1;
+}
+
+#button-27:hover{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+#button-28:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+
+#button-29:hover{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+}
+
+#button-30:hover{
+        border-radius:50%;
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+#button-31:hover{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+
+#button-32:hover{
+        box-shadow: inset 0 0 0 25px #53a7ea;
+}
+
+#button-33:hover{
+        background:wheat;
+}
+
+#button-34:hover{
+   		box-shadow:
+        1px 1px #53a7ea,
+        2px 2px #53a7ea,
+        3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+#button-35:hover{
+-webkit-transform:scale(1.3);
+transform:scale(1.3);
+}
+#button-35 {
+overflow:hidden;
+width:200px;
+height:200px;
+}
+#button-36:hover {
+border-top-left-radius: 0px; 
+border-bottom-right-radius: 0px;
+border-top-right-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+#button-36 {
+border-bottom-left-radius: 120px;
+border-top-right-radius: 120px; 
+border-bottom-right-radius: 15px;
+border-top-left-radius: 15px; 
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+#button-37:hover {
+-webkit-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+}
+#button-37 {
+-webkit-box-shadow: 0px 0px 15px 5px rgba(0, 185, 233, .75);
+box-shadow: 0px 0px 15px 5px rgba(0, 185, 233, .75);
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+#button-38:hover {
+-webkit-transform: translate(20px,-50px);
+transform: translate(20px,-50px);
+opacity: 0.4;
+}
+#button-38 {
+opacity: 1;
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+#button-39:hover{
+-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;
+}
+#button-39, #button-39:hover{
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+#button-40:hover {
+-webkit-box-shadow: 0px 0px 15px 15px #fff;
+box-shadow: 0px 0px 15px 15px #fff;
+border-radius:50%;
+opacity: 0.6;
+-webkit-transform: rotate(720deg);
+transform: rotate(720deg);
+}
+#button-40 {
+opacity: 1;
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+@-webkit-keyframes shakeit {
+0% { -webkit-transform: rotate(0deg) translate(2px, 1px); }
+10% { -webkit-transform: rotate(2deg) translate(1px, 2px); }
+20% { -webkit-transform: rotate(-2deg) translate(3px, 0px) ; }
+30% { -webkit-transform: rotate(0deg) translate(0px, -2px); }
+40% { -webkit-transform: rotate(-2deg) translate(-1px, 1px); }
+50% { -webkit-transform: rotate(2deg) translate(1px, -2px); }
+60% { -webkit-transform: rotate(0deg) translate(3px, -1px); }
+70% { -webkit-transform: rotate(2deg) translate(-2px, -1px); }
+80% { -webkit-transform: rotate(-2deg) translate(1px, 1px); }
+90% { -webkit-transform: rotate(0deg) translate(-2px, -2px); }
+100% { -webkit-transform: rotate(2deg) translate(-1px, 2px); }
+}
+@keyframes shakeit {
+0% { transform: rotate(0deg) translate(2px, 1px); }
+10% { transform: rotate(2deg) translate(1px, 2px); }
+20% { transform: rotate(-2deg) translate(3px, 0px) ; }
+30% { transform: rotate(0deg) translate(0px, -2px); }
+40% { transform: rotate(-2deg) translate(-1px, 1px); }
+50% { transform: rotate(2deg) translate(1px, -2px); }
+60% { transform: rotate(0deg) translate(3px, -1px); }
+70% { transform: rotate(2deg) translate(-2px, -1px); }
+80% { transform: rotate(-2deg) translate(1px, 1px); }
+90% { transform: rotate(0deg) translate(-2px, -2px); }
+100% { transform: rotate(2deg) translate(-1px, 2px); }
+}
+#button-41:hover {
+-webkit-animation-name: shakeit;
+-webkit-animation-duration: 1s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+animation-name: shakeit;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes changes {
+0% {box-shadow: 0px 0px 15px #FFFFFF; background-color: #000000;}
+10% {box-shadow: 0px 0px 15px #2F4F4F; background-color: #0000FF;}
+20% {box-shadow: 0px 0px 15px #800080; background-color: #FF00FF;}
+30% {box-shadow: 0px 0px 15px #FF0000; background-color: #008080;}
+40% {box-shadow: 0px 0px 15px #FFFF00; background-color: #00FF00;}
+50% {box-shadow: 0px 0px 15px #000000; background-color: #FFFFFF;}
+60% {box-shadow: 0px 0px 15px #0000FF; background-color: #FFFF00;}
+70% {box-shadow: 0px 0px 15px #FF00FF; background-color: #FF0000;}
+80% {box-shadow: 0px 0px 15px #008080; background-color: #800080;}
+90% {box-shadow: 0px 0px 15px #00FF00; background-color: #2F4F4F;}
+100% {box-shadow: 0px 0px 15px #FFFFFF; background-color: #000000;}
+}
+@keyframes changes {
+0% {box-shadow: 0px 0px 15px #FFFFFF; background-color: #000000;}
+10% {box-shadow: 0px 0px 15px #2F4F4F; background-color: #0000FF;}
+20% {box-shadow: 0px 0px 15px #800080; background-color: #FF00FF;}
+30% {box-shadow: 0px 0px 15px #FF0000; background-color: #008080;}
+40% {box-shadow: 0px 0px 15px #FFFF00; background-color: #00FF00;}
+50% {box-shadow: 0px 0px 15px #000000; background-color: #FFFFFF;}
+60% {box-shadow: 0px 0px 15px #0000FF; background-color: #FFFF00;}
+70% {box-shadow: 0px 0px 15px #FF00FF; background-color: #FF0000;}
+80% {box-shadow: 0px 0px 15px #008080; background-color: #800080;}
+90% {box-shadow: 0px 0px 15px #00FF00; background-color: #2F4F4F;}
+100% {box-shadow: 0px 0px 15px #FFFFFF; background-color: #000000;}
+}
+#button-42:hover {
+-webkit-animation-name: changes;
+-webkit-animation-duration: 10s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+animation-name: changes;
+animation-duration: 10s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+#button-43:hover {
+transform:skew(35deg);
+}
+
+#button-44:hover{
+	transform:scale(1,0.5);
+}
+
+#button-45:hover{
+	transform:translate(10px, 20px);
+}
+
+#button-46:hover{
+	transform:skew(30deg) scale(1.1,1.1) rotate(40deg) translate(10px, 20px);
+}
+
+#button-47:hover {
+    background-color: seagreen;
+    width: 200px;
+    height: 200px;
+    -webkit-transform: rotate(200deg);
+    transform: rotate(200deg);
+}
+
+#button-48:hover {
+-webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 9;
+        animation-iteration-count: 9;
+}
+
+#button-50:hover{
+	transform: rotate(180deg) scale(.4);
+	opacity: .5;
+}
+
