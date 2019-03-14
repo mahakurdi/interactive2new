@@ -1,0 +1,180 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: beige;
+}
+
+/* container */
+
+
+
+/* items */
+
+.dot {
+  height: 200px;
+  width: 200px;
+  background-color: deeppink;
+  border-radius: 50%;
+  display: table;
+  /*margin: 50px;
+  margin-left: 115px;
+  margin-top: 139px;*/
+ 
+ position: absolute;
+    left: 100px;
+    top: 146px;
+    transition: all 100ms ease;
+    z-index: 10;
+}
+
+
+
+
+
+.dot1 {
+  height: 100px;
+  width: 100px;
+  background-color: lavender ;
+  border-radius: 50%;
+  display: table;
+  /*margin:50px;*/
+
+  position: absolute;
+    left: 300px;
+    top: 146px;
+  transition: all 500ms ease;
+  z-index: 10;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  background-color: royalblue;
+  display: table;
+  /*margin-left: 1141px;
+  margin-top: -168px;*/
+
+  position: absolute;
+    left: 100px;
+    top: 346px;
+    transition: all 300ms ease;
+
+}
+
+.dot:active {
+  transition: unset;
+
+}
+.dot1:active {
+  transition: unset;
+
+}
+.square:active {
+  transition: unset;
+
+}
+
+/*second gamge*/
+#SecondGame{
+  display: none;
+}
+#rectangular1 {
+  position: absolute;
+      width: 200px;
+      height: 100px;
+      background: yellow;
+    }
+
+    #rectangular2 {
+      position: absolute;
+      width: 200px;
+      height: 100px;
+      background: forestgreen ;
+    }
+
+    #rectangular3{
+      position: absolute;
+      width: 257px;
+      height: 86px;
+      background: blue;
+    }
+  
+
+  #circle1 {
+    position: absolute;
+      width: 150px;
+      height: 150px;
+      background: orange;
+      border-radius: 50%
+    }
+
+    #circle2 {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      background: pink;
+      border-radius: 50%
+    }
+
+    #circle3 {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background: thistle ;
+      border-radius: 50%
+    }
+
+    #traingular1 {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      border-bottom: 100px solid mediumaquamarine;
+    }
+  
+  #traingular2 {
+    position: absolute;
+      width: 0;
+      height: 0;
+      border-left: 200px solid transparent;
+      border-right: 200px solid transparent;
+      border-bottom: 100px solid darksalmon;
+    }
+
+    #traingular3 {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid gold;
+    }
+
+    #square1 {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      background: cyan;
+    }
+
+    #square2 {
+      width: 100px;
+      height: 100px;
+      background: greenyellow;
+      position: absolute;
+    }
+
+    #square3 {
+      width: 200px;
+      height: 200px;
+      background: red;
+      position: absolute;
+    }
+#SecondGame{
+    position: absolute;
+}
+
