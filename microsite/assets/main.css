@@ -103,6 +103,8 @@ body {
       width: 200px;
       height: 100px;
       background: darkcyan;
+      top: 90px;
+      left: 170px;
     }
 
     #rectangular2 {
@@ -110,6 +112,8 @@ body {
       width: 200px;
       height: 100px;
       background: forestgreen ;
+      top: 307px;
+    left: 560px;
     }
 
     #rectangular3{
@@ -117,6 +121,8 @@ body {
       width: 257px;
       height: 86px;
       background: darkolivegreen ;
+      top: 521px;
+    left: 176px;
     }
   
 
@@ -125,7 +131,9 @@ body {
       width: 150px;
       height: 150px;
       background: orange;
-      border-radius: 50%
+      border-radius: 50%;
+      top: 582px;
+    left: 123px;
     }
 
     #circle2 {
@@ -133,7 +141,9 @@ body {
       width: 100px;
       height: 100px;
       background: pink;
-      border-radius: 50%
+      border-radius: 50%;
+      top: 521px;
+    left: 736px;
     }
 
     #circle3 {
@@ -141,7 +151,9 @@ body {
       width: 200px;
       height: 200px;
       background: thistle ;
-      border-radius: 50%
+      border-radius: 50%;
+      top: 221px;
+    left: 980px;
     }
 
     #traingular1 {
@@ -151,6 +163,8 @@ body {
       border-left: 100px solid transparent;
       border-right: 100px solid transparent;
       border-bottom: 100px solid mediumaquamarine;
+          top: 386px;
+    left: 456px;
     }
   
   #traingular2 {
@@ -160,6 +174,8 @@ body {
       border-left: 200px solid transparent;
       border-right: 200px solid transparent;
       border-bottom: 100px solid darksalmon;
+      top: 313px;
+    left: 574px;
     }
 
     #traingular3 {
@@ -169,6 +185,9 @@ body {
       border-left: 50px solid transparent;
       border-right: 50px solid transparent;
       border-bottom: 100px solid gold;
+          top: 551px;
+    left: 188px;
+
     }
 
     #square1 {
@@ -176,6 +195,8 @@ body {
       width: 100px;
       height: 100px;
       background: lightsteelblue ;
+      top: 341px;
+    left: 500px;
     }
 
     #square2 {
@@ -183,6 +204,8 @@ body {
       height: 100px;
       background: sandybrown ;
       position: absolute;
+      top: 220px;
+    left: 684px;
     }
 
     #square3 {
@@ -190,6 +213,8 @@ body {
       height: 200px;
       background: palevioletred ;
       position: absolute;
+      top: 562px;
+    left: 595px;
     }
 #SecondGame{
     position: absolute;
