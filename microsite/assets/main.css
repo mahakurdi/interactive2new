@@ -49,6 +49,23 @@ body {
   z-index: 10;
 }
 
+.dot11 {
+  height: 50px;
+  width: 50px;
+  background-color: tan  ;
+  border-radius: 50%;
+  display: table;
+  /*margin:50px;*/
+
+ float: right;
+    left: 300px;
+    top: 146px;
+  transition: all 500ms ease;
+  z-index: 10;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
 .square {
   height: 200px;
   width: 200px;
