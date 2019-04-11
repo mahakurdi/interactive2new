@@ -4,14 +4,13 @@ window.addEventListener('resize',pageResized)
 function pageResized(){
   console.log(window.innerHeight, window.innerWidth)
   
-//   uncomment this to see the font size resize based on how tall the window is
+let windowPercentOfScreen = (window.innerHeight / window.screen.height) * 100
   
-//   let windowPercentOfScreen = (1 - (window.innerHeight / window.screen.height)) * 100
+  let rotation = (window.innerWidth / window.screen.width) * 360
   
-//   let colorFromScreenHeight = 'hsl(0,0%,' + windowPercentOfScreen + '%)'
-//   console.log(colorFromScreenHeight)
-//   document.body.style.color = colorFromScreenHeight
-  
+  let colorFromScreenHeight = 'hsl(' + rotation + ','+windowPercentOfScreen+'%,66%)'
+  document.body.style.background = colorFromScreenHeight
+  printout.innerText = 'hsl(' + Math.round(rotation) + ','+Math.round(windowPercentOfScreen)+'%,66%)'
 }
 
 pageResized()
