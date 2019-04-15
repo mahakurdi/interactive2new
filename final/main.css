@@ -1,28 +1,146 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
 
 #home {
 	
-	background:url("img/IMG_1132.JPG");
+	background:url("img/IMG_1132.JPG") no-repeat center;;
 	background-size:cover;
+	margin-bottom: 80px;
+	min-height: 100vh;
 
 }
 
 #pageOne {
 	
-	background:url("img/IMG_1125.JPG");
+	background:url("img/IMG_1125.JPG") no-repeat center;
 	background-size:cover;
+	margin-bottom: auto;
+	min-height: 100vh;
 
 }
 
 #pageTwo {
 	
-	background:url("img/IMG_1177.JPG");
+	background:url("img/IMG_1177.JPG") no-repeat center;
 	background-size:cover;
+	min-height: 100vh;
+
 
 }
 
 #pageThree {
 	
-	background:url("img/IMG_1142.JPG");
+	background:url("img/IMG_1142.JPG") no-repeat center;
 	background-size:cover;
+	min-height: 100vh;
 
 }
+
+#rectangle1 {
+      width: 157px;
+      height: 58px;
+      background: white;
+      margin-top: 44px;
+      margin-left: 74px;
+    }
+
+
+   h1{
+   	font-family: "helvetica";
+   	color: black;
+   	font-size: 30px;
+   	align-content: center;
+   	margin-top: -45px;
+   	margin-left: 85px;
+   }
+
+   #rectangle2 {
+      width: 195px;
+      height: 58px;
+      background: white;
+      margin-top: 21px;
+      margin-left: 74px;
+    }
+
+    #rectangle3 {
+      width: 439px;
+      height: 58px;
+      background: white;
+      margin-top: 21px;
+      margin-left: 74px;
+    }
+
+    #rectangle4 {
+      width: 372px;
+      height: 58px;
+      background: white;
+      margin-top: 21px;
+      margin-left: 74px;
+    }
+
+    #rectangle5 {
+      width: 126px;
+      height: 58px;
+      background: white;
+      margin-top: 21px;
+      margin-left: 74px;
+    }
+
+    #rectangle6 {
+      width: 844px;
+      height: 258px;
+      background: black;
+      margin-top: 60px;
+      margin-left: 103px;
+    }
+
+    #rectangle7 {
+      width: 816px;
+      height: 240px;
+      background: white;
+      margin-top: -209px;
+      margin-left: 74px;
+    }
+
+    #rectangle77 {
+      width: 419px;
+      height: 58px;
+      background: black;
+      margin-top: 651px;
+      margin-left: 924px;
+    }
+
+#rectanglee {
+      width: 725px;
+      height: 58px;
+      background: white;
+      margin-top: -45px;
+      margin-left: 602px;
+    }
+
+    p{
+    	font-family: "helvetica";
+   	color: black;
+   	font-size: 15px;
+   	margin-top: -47px;
+   	margin-left: 634px;
+   	align-content: left;
+    }
+    
+    #rectangled {
+      width: 725px;
+      height: 58px;
+      background: white;
+      margin-top: -45px;
+      margin-left: 602px;
+    }
+
+    #rectangler {
+      width: 419px;
+      height: 58px;
+      background: black;
+      margin-top: 651px;
+      margin-left: 924px;
+    }
