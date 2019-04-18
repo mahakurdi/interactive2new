@@ -1,5 +1,5 @@
 * {
-	margin: 0px;
+	margin: -3px;
 	padding: 0px;
 }
 
@@ -54,6 +54,7 @@
    	align-content: center;
    	margin-top: -45px;
    	margin-left: 85px;
+    white-space: nowrap;
    }
 
    #rectangle2 {
@@ -89,20 +90,35 @@
     }
 
     #rectangle6 {
-      width: 844px;
-      height: 258px;
+      width: 1236px;
+      height: 238px;
       background: black;
-      margin-top: 60px;
-      margin-left: 103px;
+      position: absolute;
+      bottom: 64px;
+      top: 496px;
+      left: 190px;
+
     }
 
     #rectangle7 {
-      width: 816px;
-      height: 240px;
+      width: 90vw;/*1216px;*/
+      height: 202px;
       background: white;
-      margin-top: -209px;
-      margin-left: 74px;
+      position: absolute;
+      bottom: 64px;
+      left: 74px;
+
+column-count: 3;
+font-size:10pt;
+padding: 45px;
+       padding-left: 22px;
+       line-height: auto;
+       /*font-size:1vw;*/
     }
+
+
+
+
 
     #rectangle77 {
       width: 419px;
@@ -110,6 +126,7 @@
       background: black;
       margin-top: 651px;
       margin-left: 924px;
+
     }
 
 #rectanglee {
@@ -120,13 +137,14 @@
       margin-left: 602px;
     }
 
-    p{
+    h2{
     	font-family: "helvetica";
    	color: black;
    	font-size: 15px;
    	margin-top: -47px;
    	margin-left: 634px;
    	align-content: left;
+    font-weight: normal;
     }
     
     #rectangled {
@@ -144,3 +162,94 @@
       margin-top: 651px;
       margin-left: 924px;
     }
+
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* { box-sizing: border-box; }
+
+body { 
+  font-family: 'helvetica';
+  color: #666;
+  font-size: 15px;
+}
+
+/* STRUCTURE */
+
+.wrapper {
+  padding: 5px;
+  max-width: 960px;
+  width: 95%;
+  margin: 20px auto;
+}
+header {
+  padding: 0 15px;
+}
+
+.columns {
+  /*display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 5px 0;*/
+}
+
+.column {
+/*  flex: 1;
+  border: 1px solid gray;
+  margin: 2px;
+  padding: 10px;
+  &:first-child { margin-left: 0; }
+  &:last-child { margin-right: 0; }
+  */
+}
+
+@media screen and (max-width: 980px) {
+  .columns .column {
+    margin-bottom: 5px;
+    flex-basis: 40%;
+    &:nth-last-child(2) {
+      margin-right: 0;
+    }
+    &:last-child {
+      flex-basis: 100%;
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .columns .column {
+    flex-basis: 100%;
+    margin: 0 0 5px 0;
+  }
+}
+
+
+body, html {
+  margin:0;
+  overflow:hidden;
+}
+
+
+#bigImage {
+ position:absolute;
+width:300vw;
+
+z-index: -1;
+display: none;
+}
+
+
+
+
+
+ @media only screen and  (max-width: 800px) {
+#rectangle7 {
+
+  height:unset;
+  column-count: unset;
+}
+body, html {
+  overflow:auto;
+}
+
+}

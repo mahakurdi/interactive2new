@@ -1,0 +1,33 @@
+let image = document.querySelector('#bigImage')
+
+
+
+window.addEventListener('mousemove',zoomer)
+
+
+
+function zoomer(event){
+  let x = event.clientX / window.innerWidth
+  let y = event.clientY / window.innerHeight
+  
+  let imageHeight = image.clientHeight
+  let imageWidth = image.clientWidth
+  
+  
+  image.style.top = -y * (imageHeight - window.innerHeight) + 'px'
+  image.style.left = -x * (imageWidth - window.innerWidth) + 'px'
+  
+  
+  
+  console.log(x,y,x*imageWidth,y*imageHeight)
+}
+
+
+window.addEventListener('mousedown',(e)=>{
+
+  image.style.display = 'block'
+  zoomer(e)
+})
+window.addEventListener('mouseup',()=>{
+  image.style.display = 'none'
+})
