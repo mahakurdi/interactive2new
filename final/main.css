@@ -1,6 +1,7 @@
 * {
 	margin: -3px;
 	padding: 0px;
+  user-select: none;
 }
 
 #home {
@@ -124,8 +125,11 @@ padding: 45px;
       width: 419px;
       height: 58px;
       background: black;
-      margin-top: 651px;
-      margin-left: 924px;
+     /* margin-top: 651px;*/
+      /*margin-left: 924px;*/
+      position: absolute;
+      right: 67px;
+      top: 668px;
 
     }
 
@@ -133,34 +137,46 @@ padding: 45px;
       width: 725px;
       height: 58px;
       background: white;
-      margin-top: -45px;
-      margin-left: 602px;
+     /* margin-top: -45px;*/
+      /*margin-left: 602px;*/
+      position: absolute;
+      right:83px;
+      top: 685px;
     }
 
     h2{
     	font-family: "helvetica";
    	color: black;
    	font-size: 15px;
-   	margin-top: -47px;
-   	margin-left: 634px;
+   	margin-top: -37px;
+   	/*margin-left: 634px;*/
+    position: absolute;
+      right:120px;
    	align-content: left;
     font-weight: normal;
+    top: 732px;
     }
     
     #rectangled {
       width: 725px;
       height: 58px;
       background: white;
-      margin-top: -45px;
-      margin-left: 602px;
+      /*margin-top: -45px;
+      margin-left: 602px;*/
+      position: absolute;
+      right:83px;
+      top: 685px;
     }
 
     #rectangler {
       width: 419px;
       height: 58px;
       background: black;
-      margin-top: 651px;
-      margin-left: 924px;
+      /*margin-top: 651px;
+      margin-left: 924px;*/
+      position: absolute;
+      right: 67px;
+      top: 668px;
     }
 
     @import url(https://fonts.googleapis.com/css?family=Open+Sans);
@@ -248,8 +264,19 @@ display: none;
   height:unset;
   column-count: unset;
 }
+
+
 body, html {
   overflow:auto;
 }
 
+}
+
+
+ @media only screen and  (max-width: 615px) {
+#bigImage{
+width:unset;
+height:150vh;
+
+}
 }
